@@ -20,11 +20,15 @@
       let mut buf_spray = Vec::new();
       spray.encode(&mut buf_spray).unwrap();
 
-      register_brush(
+      register_tool(
           load_resource("/Spray.pixi").as_slice(),
           &buf_spray,
       );
 
-      add_to_toolset("SPRAY", "PixiEditor:PAINT_TOOLSET", 8);
-      add_to_toolset("SPRAY", "PixiEditor:PIXEL_ART_TOOLSET", 8);
+      let tool_config = "{
+          \"DefaultToolSize\": 10
+      }";
+
+      add_to_toolset_with_config("SPRAY", "PixiEditor:PAINT_TOOLSET", 8, tool_config);
+      add_to_toolset_with_config("SPRAY", "PixiEditor:PIXEL_ART_TOOLSET", 8, tool_config);
   }

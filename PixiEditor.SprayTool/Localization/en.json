@@ -1,5 +1,5 @@
 {
   "PixiEditor.SprayTool:SPRAY": "Spray",
-  "PixiEditor.SprayTool:SPRAY_TOOLTIP": "Sprays pixel.",
+  "PixiEditor.SprayTool:SPRAY_TOOLTIP": "Sprays pixels ({0}).",
   "PixiEditor.SprayTool:SPRAY_ACTION_DISPLAY": "Click to spray pixels."
 }
