@@ -1,0 +1,13 @@
+<!-- Created with PixiEditor (https://pixieditor.net) -->
+<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M3 3L3.01 3" fill-rule="nonzero" transform="matrix(1, 0, 0, 1, 0, 0)" fill="#ffffff" fill-opacity="0" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" id="Path" />
+  <path d="M7 5L7.01 5" fill-rule="nonzero" transform="matrix(1, 0, 0, 1, 0, 0)" fill="#ffffff" fill-opacity="0" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" id="Path" />
+  <path d="M11 7L11.01 7" fill-rule="nonzero" transform="matrix(1, 0, 0, 1, 0, 0)" fill="#ffffff" fill-opacity="0" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" id="Path" />
+  <path d="M3 7L3.01 7" fill-rule="nonzero" transform="matrix(1, 0, 0, 1, 0, 0)" fill="#ffffff" fill-opacity="0" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" id="Path" />
+  <path d="M7 9L7.01 9" fill-rule="nonzero" transform="matrix(1, 0, 0, 1, 0, 0)" fill="#ffffff" fill-opacity="0" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" id="Path" />
+  <path d="M3 11L3.01 11" fill-rule="nonzero" transform="matrix(1, 0, 0, 1, 0, 0)" fill="#ffffff" fill-opacity="0" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" id="Path" />
+  <rect x="15" y="5" width="4" height="4" rx="0" ry="0" transform="matrix(1, 0, 0, 1, 0, 0)" fill="#ffffff" fill-opacity="0" stroke="#ffffff" stroke-width="2" opacity="1" id="Rectangle" />
+  <path d="M19 9L21 11L21 21C21 21.6 20.6 22 20 22L14 22C13.4 22 13 21.6 13 21L13 11L15 9" fill-rule="nonzero" transform="matrix(1, 0, 0, 1, 0, 0)" fill="#ffffff" fill-opacity="0" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" id="Path" />
+  <path d="M13 14L21 12" fill-rule="nonzero" transform="matrix(1, 0, 0, 1, 0, 0)" fill="#ffffff" fill-opacity="0" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" id="Path" />
+  <path d="M13 19L21 17" fill-rule="nonzero" transform="matrix(1, 0, 0, 1, 0, 0)" fill="#ffffff" fill-opacity="0" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" id="Path" />
+</svg>

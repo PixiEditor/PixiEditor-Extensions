@@ -1,0 +1,30 @@
+{
+  "displayName": "Spray Tool",
+  "uniqueName": "PixiEditor.SprayTool",
+  "description": "It's a spray tool. Like it sprays ... uh ... pixels. You know, like a spray can. It sprays pixels yeah.",
+  "version": "1.0.0",
+  "image": "PixiEditor.SprayTool://Resources/Images/cover.png",
+  "localization": {
+    "languages": [
+      {
+        "name": "English",
+        "code": "en",
+        "localeFileName": "Localization/en.json"
+      }
+    ]
+  },
+  "author": {
+    "name": "Pixi Labs",
+    "email": "contact@pixilabs.eu",
+    "website": "https://pixieditor.net"
+  },
+  "publisher": {
+    "name": "Pixi Labs",
+    "email": "contact@pixilabs.eu",
+    "website": "https://pixieditor.net"
+  },
+  "license": "Copyright Pixi Labs Sp. z o.o.",
+  "categories": [
+    "Tools"
+  ]
+}
