@@ -10,6 +10,11 @@
         "name": "English",
         "code": "en",
         "localeFileName": "Localization/en.json"
+      },
+      {
+        "name": "Italiano",
+        "code": "it",
+        "localeFileName": "Localization/it.json"
       }
     ]
   },
