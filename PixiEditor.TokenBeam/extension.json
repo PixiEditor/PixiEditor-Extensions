@@ -1,0 +1,26 @@
+{
+  "displayName": "Token Beam",
+  "uniqueName": "PixiEditor.TokenBeam",
+  "description": "Token Beam palette protocol support for PixiEditor",
+  "version": "1.0.0",
+  "author": {
+    "name": "flabbet"
+  },
+  "publisher": {
+    "name": "PixiEditor",
+    "email": "info@pixieditor.net",
+    "website": "https://pixieditor.net"
+  },
+  "contributors": [
+    {
+      "name": "flabbet"
+    }
+  ],
+  "permissions": [
+    "Network"
+  ],
+  "license": "MIT",
+  "categories": [
+    "Palettes"
+  ]
+}
