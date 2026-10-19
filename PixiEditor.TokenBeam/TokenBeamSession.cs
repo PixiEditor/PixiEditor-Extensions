@@ -13,23 +13,28 @@ namespace PixiEditor.TokenBeam;
 public class TokenBeamSession
 {
     public bool Connected => _connection is { IsAlive: true };
+    public string BeamToken { get; set; }
 
     public event Action OnConnected;
     public event Action OnConnectionLost;
 
     private WebSocketConnection? _connection;
 
-    public TokenBeamSession(string token)
+    public TokenBeamSession(string token, string url)
     {
+        BeamToken = token;
         var request = new WebSocketRequest
         {
-            Url = "wss://tokenbeam.dev",
+            Url = url,
         };
 
         var api = PixiEditorExtension.Api;
 
+        api.Logger.Log("Connecting to tokenbeam.");
+
         api.NetworkProvider.ConnectWebSocket(request).Completed += connection =>
         {
+            api.Logger.Log("Established connection to tokenbeam.");
             _connection = connection;
             _connection.OnConnectionClosed += () =>
             {
@@ -41,6 +46,8 @@ public class TokenBeamSession
                 api.Logger.Log("Failed to connect to Token Beam.");
                 return;
             }
+
+            api.Logger.Log($"Connected to tokenbeam: {BeamToken}");
 
             OnConnected?.Invoke();
 
@@ -108,7 +115,8 @@ public class TokenBeamSession
 
     public void Disconnect()
     {
-        _connection.Close();
+        _connection?.Close();
+        _connection = null;
         OnConnectionLost?.Invoke();
     }
 }
@@ -118,14 +126,6 @@ public sealed class TokenBeamPairRequest
     [JsonPropertyName("type")] public string Type { get; set; } = "pair";
     [JsonPropertyName("clientType")] public string ClientType { get; set; } = "sender";
     [JsonPropertyName("sessionToken")] public string SessionToken { get; set; } = "";
-}
-
-public sealed class TokenBeamMessage
-{
-    public string? Type { get; set; }
-    public string? SessionToken { get; set; }
-    public string? Error { get; set; }
-    public string? Payload { get; set; }
 }
 
 public sealed class TokenBeamPayload

@@ -7,7 +7,7 @@
         <PublishTrimmed>true</PublishTrimmed>
         <WasmSingleFileBundle>true</WasmSingleFileBundle>
         <GenerateExtensionPackage>true</GenerateExtensionPackage>
-        <PixiExtOutputPath>..\..\src\PixiEditor.Desktop\bin\Debug\net10.0\Extensions</PixiExtOutputPath>
+        <PixiExtOutputPath>..\..\PixiEditor\src\PixiEditor.Desktop\bin\Debug\net10.0\Extensions</PixiExtOutputPath>
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
         <ValidateExecutableReferencesMatchSelfContained>false</ValidateExecutableReferencesMatchSelfContained>
         <RootNamespace>PixiEditor.TokenBeam</RootNamespace>
