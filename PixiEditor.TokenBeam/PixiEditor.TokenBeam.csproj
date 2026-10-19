@@ -21,9 +21,18 @@
         </Content>
     </ItemGroup>
 
+    <ItemGroup>
+        <Content Include="Localization/**">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Resources/**">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
 
     <ItemGroup>
-      <PackageReference Include="PixiEditor.Extensions.Sdk" Version="0.2.1-dev" />
+        <PackageReference Include="PixiEditor.Extensions.Sdk" Version="0.2.1-dev"/>
     </ItemGroup>
 
 </Project>

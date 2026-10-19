@@ -2,6 +2,7 @@
   "displayName": "Token Beam",
   "uniqueName": "PixiEditor.TokenBeam",
   "description": "Token Beam palette protocol support for PixiEditor",
+  "image": "PixiEditor.TokenBeam://Resources/Images/cover.png",
   "version": "1.0.0",
   "author": {
     "name": "flabbet"
@@ -14,6 +15,12 @@
   "contributors": [
     {
       "name": "flabbet"
+    }
+  ],
+  "versions": [
+    {
+      "extensionVersion": "1.0.0",
+      "pixiEditorApiVersion": 5
     }
   ],
   "permissions": [
